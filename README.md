@@ -8,7 +8,7 @@ Personal notes and transcripts for learning Android development with **Kotlin**,
 
 ```
 DanisPanjuta/
-├── Day 1 … Day 21/       # Per-day lesson notes (.md), slides (.pdf) and source code
+├── Day 1 … Day 32/       # Per-day lesson notes (.md), slides (.pdf) and source code
 │   ├── Day 1 – Project setup, MainActivity, onCreate
 │   ├── Day 2 – Kotlin basics, Rock Paper Scissors
 │   ├── Day 3 – Functions, classes & objects, coffee machine app
@@ -29,7 +29,18 @@ DanisPanjuta/
 │   ├── Day 18 – Firebase Chat App Part 2, Chatroom lists & messages
 │   ├── Day 19 – Introduction (Udemy meta)
 │   ├── Day 20 – Getting Ready with Android Studio (XML track intro)
-│   └── Day 21 – Kotlin Fundamentals — If statements
+│   ├── Day 21 – Kotlin Fundamentals — If statements
+│   ├── Day 22 – More Kotlin fundamentals: collections, lambdas, visibility modifiers, casts, try/catch
+│   ├── Day 23 – Age in Minutes app, DatePickerDialog
+│   ├── Day 24 – Calculator app, LinearLayout, click handling
+│   ├── Day 25 – Quiz app, Intents, question model & results screen
+│   ├── Day 26 – Drawing app, custom View & Canvas, permissions, saving images
+│   ├── Day 27 – 7 Minute Workout, timers, TTS, Room history, BMI calculator
+│   ├── Day 28 – Happy Places, location & Google Maps, SQLite, swipe to edit/delete
+│   ├── Day 29 – Weather app, Retrofit, JSON, FusedLocation, Dexter permissions
+│   ├── Day 30 – Trello clone: Firebase Auth, Firestore, Storage, drag & drop, FCM
+│   ├── Day 31 – Where to go now: learning, making money, publishing, games
+│   └── Day 32 – Thank you & bonus
 └── transcripts/          # Full course transcripts, one folder per day/section
     ├── 01–18             # Jetpack Compose track (setup → Firebase chat app)
     ├── 19–32             # Android 12 / XML track (calculator, quiz, drawing app,
@@ -44,4 +55,4 @@ DanisPanjuta/
 - Architecture: MVVM
 - Networking: JSON, Retrofit, HTTP/REST APIs
 - Navigation, Room database, Firebase, Google Maps
-- Legacy XML UI toolkit (Android 10/12 sections)
+- Legacy XML UI toolkit (Android 10/12 sections): RecyclerView, custom views, SQLite, Firestore, FCM
