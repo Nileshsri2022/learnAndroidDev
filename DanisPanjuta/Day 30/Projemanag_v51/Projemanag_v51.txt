@@ -1,0 +1,5 @@
+In this version, we have performed the list of steps :
+
+1. We have added a code to sent the firebase push notification using the fcm token when a new member is assigned to the board.
+2. We have received and shown the notification in the notification tray and handled the further redirection.
+2. We have done all the programming steps to achieve it.
