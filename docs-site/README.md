@@ -56,8 +56,8 @@ python3 check_links.py
 What you get:
 
 - **Top tab bar** — Home · App projects · Days 1–18 · Days 19–32 — with collapsed day sections and short sidebar labels
-- One page per **lecture note** (440 pages), grouped into 32 days
-- One page per **raw transcript** (520 pages), marked with 🗣 in the sidebar
+- One page per **lecture note** (499 pages), grouped into 32 days
+- One page per **raw transcript** (519 pages), marked with 🗣 in the sidebar
 - A **source code browser** — 17 app projects (Unit Converter, Shopping List, Recipe,
   Wishlist, Music App, Chat Room, Age in Minutes, Calculator, Happy Places, Weather,
   Trello clone…) with every Kotlin/XML/Gradle file rendered syntax-highlighted
