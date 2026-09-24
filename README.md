@@ -30,7 +30,7 @@ DanisPanjuta/
 │   ├── Day 19 – Introduction (Udemy meta)
 │   ├── Day 20 – Getting Ready with Android Studio (XML track intro)
 │   ├── Day 21 – Kotlin Fundamentals — If statements
-│   ├── Day 22 – More Kotlin fundamentals: OOP, constructors, inheritance, data classes, lambdas
+│   ├── Day 22 – More Kotlin fundamentals: collections, lambdas, visibility modifiers, casts, try/catch
 │   ├── Day 23 – Age in Minutes app, DatePickerDialog
 │   ├── Day 24 – Calculator app, LinearLayout, click handling
 │   ├── Day 25 – Quiz app, Intents, question model & results screen
