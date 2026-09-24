@@ -1,0 +1,4 @@
+In this version we have done the list of steps.
+
+1. We have created a asynctask class for getting the address from latlng.
+1. And finally we have got the address of current location with the help of latitude and longitude.
