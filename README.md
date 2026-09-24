@@ -8,7 +8,7 @@ Personal notes and transcripts for learning Android development with **Kotlin**,
 
 ```
 DanisPanjuta/
-├── Day 1 … Day 8/        # Per-day lesson notes (.md), slides (.pdf) and source code
+├── Day 1 … Day 9/        # Per-day lesson notes (.md), slides (.pdf) and source code
 │   ├── Day 1 – Project setup, MainActivity, onCreate
 │   ├── Day 2 – Kotlin basics, Rock Paper Scissors
 │   ├── Day 3 – Functions, classes & objects, coffee machine app
@@ -16,7 +16,8 @@ DanisPanjuta/
 │   ├── Day 5 – First app: Unit Converter (Jetpack Compose)
 │   ├── Day 6 – Unit Converter pt. 2, state management (remember / mutableStateOf)
 │   ├── Day 7 – Shopping List app, LazyColumn, AlertDialog
-│   └── Day 8 – MVVM architecture, ViewModel, inheritance & interfaces
+│   ├── Day 8 – MVVM architecture, ViewModel, inheritance & interfaces
+│   └── Day 9 – JSON, Retrofit, HTTP/REST APIs, coroutines & recipe app
 └── transcripts/          # Full course transcripts, one folder per day/section
     ├── 01–18             # Jetpack Compose track (setup → Firebase chat app)
     ├── 19–32             # Android 12 / XML track (calculator, quiz, drawing app,
