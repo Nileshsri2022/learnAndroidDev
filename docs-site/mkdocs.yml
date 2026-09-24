@@ -16,12 +16,15 @@ theme:
   name: material
   language: en
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.instant
     - navigation.indexes
     - navigation.top
-    - navigation.back_to_pointer
+    - navigation.tracking
     - navigation.prune
+    - toc.follow
     - search.suggest
     - search.highlight
     - search.share
