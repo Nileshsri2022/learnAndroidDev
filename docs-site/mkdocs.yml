@@ -10,7 +10,7 @@ site_dir: site
 
 # GitHub Pages serves the site under /learnAndroidDev/ — mkdocs needs to know
 # the final URL so canonical links, the sitemap and search resolve correctly.
-site_url: https://meradomain.qzz.io/learnAndroidDev/
+site_url: https://nileshsri2022.github.io/learnAndroidDev/
 
 # Rebuild when the underlying course material changes.
 watch:
