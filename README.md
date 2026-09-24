@@ -56,3 +56,20 @@ DanisPanjuta/
 - Networking: JSON, Retrofit, HTTP/REST APIs
 - Navigation, Room database, Firebase, Google Maps
 - Legacy XML UI toolkit (Android 10/12 sections): RecyclerView, custom views, SQLite, Firestore, FCM
+
+## Documentation site
+
+The notes and transcripts are also available as a **searchable website**
+(MkDocs Material, ~1,580 pages: lecture notes, transcripts and browsable
+app source code, with full-text search and dark mode):
+
+```bash
+cd docs-site
+pip install -r requirements.txt
+mkdocs serve          # http://localhost:8000
+```
+
+Pages are generated in memory from `DanisPanjuta/` at build time — see
+[`docs-site/README.md`](docs-site/README.md). A static bundle can be built with
+`mkdocs build` (output in `docs-site/site/`, git-ignored) and published, e.g.
+with `mkdocs gh-deploy`.
