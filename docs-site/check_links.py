@@ -63,10 +63,29 @@ def extract(path: Path) -> LinkExtractor:
     return p
 
 
-def resolve(page_html: Path, url: str, site: Path) -> Path | None:
-    """Resolve an internal URL to a file under site/ (or None if missing)."""
+def site_url_prefix() -> str:
+    """Path prefix from mkdocs.yml `site_url`, e.g. "/learnAndroidDev"."""
+    cfg = Path(__file__).resolve().parent / "mkdocs.yml"
+    try:
+        text = cfg.read_text(encoding="utf-8")
+    except OSError:
+        return ""
+    m = re.search(r"^\s*site_url:\s*(\S+)", text, re.M)
+    return urlparse(m.group(1)).path.rstrip("/") if m else ""
+
+
+def resolve(page_html: Path, url: str, site: Path, prefix: str = "") -> Path | None:
+    """Resolve an internal URL to a file under site/ (or None if missing).
+
+    Root-relative URLs on 404.html carry the `site_url` path prefix (e.g.
+    `/learnAndroidDev/apps/`), because that page can be served from any depth.
+    Strip the prefix before resolving against site/, or every one of them would
+    be reported broken.
+    """
     target = unquote(urlparse(url).path)
     if target.startswith("/"):
+        if prefix and (target == prefix or target.startswith(prefix + "/")):
+            target = target[len(prefix):]
         candidate = site / target.lstrip("/")
     else:
         candidate = (page_html.parent / target).resolve()
@@ -75,7 +94,7 @@ def resolve(page_html: Path, url: str, site: Path) -> Path | None:
     if candidate.is_dir() or url.endswith("/"):
         candidate = candidate / "index.html"
     elif candidate.suffix == "" and not candidate.exists():
-        candidate = candidate.with_name(candidate.name + "/index.html")
+        candidate = candidate / "index.html"  # directory-style URL
     if candidate.exists():
         return candidate
     # mkdocs converts foo.md -> foo/ ; also tolerate foo.html
@@ -91,6 +110,7 @@ def main() -> int:
     args = ap.parse_args()
 
     site = Path(args.site).resolve()
+    prefix = site_url_prefix()
     pages = sorted(site.rglob("*.html"))
     broken: list[tuple[str, str]] = []
     other_pages: list[str] = []
@@ -102,8 +122,13 @@ def main() -> int:
 
     for page in pages:
         rel = page.relative_to(site).as_posix()
-        parent = page.parent
-        is_code_page = parent.name.startswith("code-")
+        # Code pages are nested: days/NN/code-<proj>/<file>/index.html — so the
+        # `code-` segment is an ancestor, not necessarily the immediate parent.
+        parts = rel.split("/")
+        code_idx = next((i for i, p in enumerate(parts) if p.startswith("code-")), -1)
+        is_code_page = code_idx >= 0
+        # days/NN/code-<proj>/index.html -> the project overview page
+        is_code_index = is_code_page and len(parts) == code_idx + 2
         if rel == "index.html":
             cat["home"] += 1
         elif rel == "apps/index.html":
@@ -114,7 +139,7 @@ def main() -> int:
             cat["day-overview"] += 1
         elif "transcript-" in rel:
             cat["transcript"] += 1
-        elif is_code_page and page.name == "index.html":
+        elif is_code_index:
             cat["code-project-index"] += 1
         elif is_code_page:
             cat["code-file"] += 1
@@ -128,7 +153,7 @@ def main() -> int:
         # Tiny .gitignore/etc. pages are fine: rendered code IS the content.
         if info.article_words < 15 and not info.has_code and rel != "404.html":
             thin.append((rel, info.article_words))
-        if is_code_page and page.name != "index.html" and not info.has_code:
+        if is_code_page and not is_code_index and not info.has_code:
             no_code.append(rel)
 
         for url in info.hrefs:
@@ -138,7 +163,7 @@ def main() -> int:
                 continue
             if scheme or url.startswith(("mailto:", "javascript:", "#")):
                 continue
-            target = resolve(page, url, site)
+            target = resolve(page, url, site, prefix)
             if target is None:
                 broken.append((rel, url))
             else:
