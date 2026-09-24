@@ -1,0 +1,62 @@
+# Builds the MkDocs Material site in docs-site/ and publishes it to GitHub Pages.
+#
+# One-time setup: Repository Settings -> Pages -> Source -> "GitHub Actions".
+# After that, every push to main that touches the notes or the docs-site
+# rebuilds and republishes https://nileshsri2022.github.io/learnAndroidDev/
+
+name: Deploy docs to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs-site/**"
+      - "DanisPanjuta/**"
+      - ".github/workflows/deploy-docs.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: docs-site/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r docs-site/requirements.txt
+
+      - name: Build the site
+        run: mkdocs build --strict
+        working-directory: docs-site
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs-site/site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -15,17 +15,25 @@ pip install -r requirements.txt
 mkdocs serve          # http://localhost:8000
 ```
 
-## Build a static bundle (GitHub Pages etc.)
+## Build a static bundle
 
 ```bash
 mkdocs build          # output in site/
 ```
 
-Then deploy `site/` wherever you like, e.g.:
+## Deploy to GitHub Pages (automatic)
 
-```bash
-mkdocs gh-deploy      # pushes site/ to the gh-pages branch
-```
+Deployment is automated with [`.github/workflows/deploy-docs.yml`](../.github/workflows/deploy-docs.yml):
+every push to `main` that touches `DanisPanjuta/` or `docs-site/` rebuilds the
+site and publishes it to
+**https://nileshsri2022.github.io/learnAndroidDev/**
+
+One-time setup (already done if the site is live): repository **Settings →
+Pages → Build and deployment → Source: GitHub Actions**. You can also redeploy
+manually from the **Actions** tab → *Deploy docs to GitHub Pages* → **Run workflow**.
+
+Prefer pushing by hand instead? `mkdocs gh-deploy` still works — it builds and
+force-pushes `site/` to the `gh-pages` branch.
 
 ## Verify the site
 
