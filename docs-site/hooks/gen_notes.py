@@ -237,7 +237,7 @@ def project_file_page(proj: Project, f: Path) -> str:
     return (
         f"# {html.escape(f.name)}\n\n"
         f"`{html.escape(rel)}` · **[{html.escape(proj.name)}](index.md)** · "
-        f"[Day {proj.day}](../../index.md) · [GitHub]({github_url(f)}){{: .md-button }}\n\n"
+        f"[Day {proj.day}](../index.md) · [GitHub]({github_url(f)}){{: .md-button }}\n\n"
         f"{fence}{lang}\n{code}\n{fence}\n"
     )
 
