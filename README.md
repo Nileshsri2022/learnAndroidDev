@@ -8,7 +8,7 @@ Personal notes and transcripts for learning Android development with **Kotlin**,
 
 ```
 DanisPanjuta/
-├── Day 1 … Day 10/       # Per-day lesson notes (.md), slides (.pdf) and source code
+├── Day 1 … Day 11/       # Per-day lesson notes (.md), slides (.pdf) and source code
 │   ├── Day 1 – Project setup, MainActivity, onCreate
 │   ├── Day 2 – Kotlin basics, Rock Paper Scissors
 │   ├── Day 3 – Functions, classes & objects, coffee machine app
@@ -18,7 +18,8 @@ DanisPanjuta/
 │   ├── Day 7 – Shopping List app, LazyColumn, AlertDialog
 │   ├── Day 8 – MVVM architecture, ViewModel, inheritance & interfaces
 │   ├── Day 9 – JSON, Retrofit, HTTP/REST APIs, coroutines & recipe app
-│   └── Day 10 – Navigation: NavHost, NavController, routes & objects
+│   ├── Day 10 – Navigation: NavHost, NavController, routes & objects
+│   └── Day 11 – Location: permissions, FusedLocationProviderClient, Geocoder
 └── transcripts/          # Full course transcripts, one folder per day/section
     ├── 01–18             # Jetpack Compose track (setup → Firebase chat app)
     ├── 19–32             # Android 12 / XML track (calculator, quiz, drawing app,
