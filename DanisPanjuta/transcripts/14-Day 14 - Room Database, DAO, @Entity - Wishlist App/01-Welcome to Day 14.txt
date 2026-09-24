@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 14 - Room Database, DAO, @Entity - Wishlist App
+Lecture: Welcome to Day 14
+----------------------------------------
+
+Welcome to day number 14. Today we are going to finish our room database wish list application. And yesterday we set up all the user interface for it. And today we're going to add the logic the saving data permanently logic using the room database which is really really important for you to understand and learn whenever you want to work as an Android developer. All right. Because for all kinds of applications, you will need to somehow store data permanently. And today we're going to learn that. All right. Today we're going to go over how to set everything up so that we can build applications where the data is stored on the phone, where if you close the app and you come back, the data is still there. You can obviously also retrieve the data. And that's what we're going to cover and update the data. So basically the Crud operations Crud or crude stands for Crud create read, update and delete. So these are the Crud operations I believe is the English pronunciation. And we are going to set all of those up today. Really cool day I'm very excited about it and I hope you are excited too. And let's get started in the next video.

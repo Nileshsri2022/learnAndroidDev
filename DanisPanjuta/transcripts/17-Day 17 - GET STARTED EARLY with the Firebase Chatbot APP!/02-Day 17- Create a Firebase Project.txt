@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 17 - GET STARTED EARLY with the Firebase Chatbot APP!
+Lecture: Day 17- Create a Firebase Project
+----------------------------------------
+
+[No transcript available for this lecture]

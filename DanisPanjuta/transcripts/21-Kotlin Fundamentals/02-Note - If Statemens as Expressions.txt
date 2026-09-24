@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Kotlin Fundamentals
+Lecture: Note - If Statemens as Expressions
+----------------------------------------
+
+[No transcript available for this lecture]

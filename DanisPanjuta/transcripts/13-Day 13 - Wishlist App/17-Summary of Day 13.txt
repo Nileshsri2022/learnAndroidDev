@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 13 - Wishlist App
+Lecture: Summary of Day 13
+----------------------------------------
+
+[No transcript available for this lecture]

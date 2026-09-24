@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: 7 Minute Workout App Android 12 Version
+Lecture: Challenge TextToSpeech
+----------------------------------------
+
+[No transcript available for this lecture]

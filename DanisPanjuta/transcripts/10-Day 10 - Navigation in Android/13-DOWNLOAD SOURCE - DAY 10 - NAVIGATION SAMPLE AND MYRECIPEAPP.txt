@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 10 - Navigation in Android
+Lecture: DOWNLOAD SOURCE - DAY 10 - NAVIGATION SAMPLE AND MYRECIPEAPP
+----------------------------------------
+
+[No transcript available for this lecture]

@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 2 - Rock Paper Scissors and Kotlin Basics
+Lecture: Summary of Day 2
+----------------------------------------
+
+[No transcript available for this lecture]

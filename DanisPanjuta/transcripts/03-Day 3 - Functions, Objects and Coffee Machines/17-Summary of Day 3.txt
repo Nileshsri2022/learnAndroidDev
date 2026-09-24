@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 3 - Functions, Objects and Coffee Machines
+Lecture: Summary of Day 3
+----------------------------------------
+
+[No transcript available for this lecture]

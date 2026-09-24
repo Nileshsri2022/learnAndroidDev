@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Calculator App - Learning XML and how to create a UI - Android 12
+Lecture: Intro Calculator App
+----------------------------------------
+
+Welcome to the Calculator app. This one is probably the most boring application that we're going to build, but I still think it's an important one because it teaches you so many different things about Android development, about how to build a UI that really works the way you want it. So it's going to be a lot about creating a why that just works, right? Just positions everything correctly. We are going to use a bunch of new features that you have not seen before that you will then re-use in other applications in the future. So it's a classic. It's rather boring, but still I think it's a good start to get used to a bunch of new features. So you will learn more about linear layouts, about the on click event. You will play around with strings and see how you can manipulate them. Then we are going to look into mathematical operations because basically that's what's important in calculators, right? And that is, of course, an important basis for our next applications. Okay. So let's get started and see you in the next video.

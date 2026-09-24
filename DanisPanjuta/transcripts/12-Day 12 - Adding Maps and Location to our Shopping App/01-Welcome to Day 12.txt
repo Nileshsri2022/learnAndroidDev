@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 12 - Adding Maps and Location to our Shopping App
+Lecture: Welcome to Day 12
+----------------------------------------
+
+Welcome to day 12, a feature packed day. We are going to go back to our shopping list app, which we had built a few days ago, and we're going to extend it. We're going to add location to it, but we're going to go further. So we're going to enable the user when using our application to add markers to a map location. So basically saying where to purchase a particular item on that item list. On the shopping list you're going to see how to use the map compose library. You're going to learn how to use the API to get geolocation and the address of that geolocation. And we're going to use the map SDK. So a bunch of really important features whenever you want to implement a map feature into your applications, which will be quite something that you will need very often. I believe, depending on obviously the projects that you're going to build, but overall it's going to be really key for your career as a developer to understand how to approach this and how to do that. So we're going to become Maps Masters after this day at least. Maps advanced. So let's get started in the next video.

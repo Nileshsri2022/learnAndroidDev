@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 1 - Setting Everything Up
+Lecture: Thanks a lot for taking the course
+----------------------------------------
+
+Thank you very much for taking this course. I'm super happy to have you here. I have this goal of teaching 1 million people how to program. And the idea behind that is that I think that there are so many different advantages that we have through it and it has changed our lives so much. And I think with more great developers, we can even get a better life, even have better solutions for many problems in our world. And this is just the beginning. We are at the point where more and more people start to program and we can really make a huge impact. That's why I'm grateful that you are in this course, that you learn programming, that you'll learn from me because I really put a lot of love and effort into making these courses. So I'm very happy to have you. So thank you very much for being in this course. I hope you enjoy it. I hope you get most out of it. And I will also show you how to get most out of it in the next video. So see you there.

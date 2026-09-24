@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 17 - GET STARTED EARLY with the Firebase Chatbot APP!
+Lecture: Day 17 - Building a chat room app EARLY ACCESS-
+----------------------------------------
+
+[No transcript available for this lecture]

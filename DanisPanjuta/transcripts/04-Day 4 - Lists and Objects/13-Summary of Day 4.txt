@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 4 - Lists and Objects
+Lecture: Summary of Day 4
+----------------------------------------
+
+[No transcript available for this lecture]

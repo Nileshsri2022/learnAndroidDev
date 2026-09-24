@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 1 - Setting Everything Up
+Lecture: Install Android Studio on Linux
+----------------------------------------
+
+[No transcript available for this lecture]

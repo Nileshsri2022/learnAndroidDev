@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 3 - Functions, Objects and Coffee Machines
+Lecture: Day 3 - Welcome to Day 3
+----------------------------------------
+
+Hello and welcome to day three of our Android Masterclass. I'm super excited to get started with day three, because today we're going to build our first functions and we're going to create our own classes. So we have used functions before, but now it's time to actually also build them or create them ourselves, make our own functions and create reusable code, so to speak. And then go to the next step and create classes which allow us to cluster functions inside of those classes even more. And that will be so cool, because it really gets you started on this object oriented programming trail, and you're going to become a developer of Kotlin in no time. So really cool. Really looking forward to teaching you these concepts and I hope you are as excited as I am. So let's get started.

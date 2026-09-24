@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 7 - Shopping List App - Learning Loads of UI Features
+Lecture: Summary of Day 7
+----------------------------------------
+
+[No transcript available for this lecture]

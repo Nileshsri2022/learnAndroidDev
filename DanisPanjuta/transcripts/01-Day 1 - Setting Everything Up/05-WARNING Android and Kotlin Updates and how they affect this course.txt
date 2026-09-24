@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 1 - Setting Everything Up
+Lecture: WARNING Android and Kotlin Updates and how they affect this course
+----------------------------------------
+
+[No transcript available for this lecture]

@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Weather App - Downloading Website, JSON, GSON, Using APIs - Android 10
+Lecture: Introduction - Weather App
+----------------------------------------
+
+Welcome back. And this chapter, we're going to build a weather app, even though the application itself is not going to be super complex, but it's going to have a bunch of features which are super important when it comes to building applications for customers, because very often you will need data from the Internet in a way or another, and we're going to see how to use JSON data in order to display it in your application. And I even had some contracts that I needed to do, and there they needed to get data from the Internet and we needed to use exactly what you're going to learn in this chapter. So you're going to see how to use the JSON API, how to use the Internet connection of your phone to get data from the Internet, how to use retrofit in order to save a lot of time because it's another third party library that really helps out. Then we are going to see how to use post and get requests and also how to use the third party library JSON, which is going to make our life a lot easier. And of course, we're going to display weather data. All right. So let's get right into it. So in the next video.

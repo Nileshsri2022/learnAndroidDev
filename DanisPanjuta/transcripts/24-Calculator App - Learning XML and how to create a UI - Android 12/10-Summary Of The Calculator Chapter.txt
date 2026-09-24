@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Calculator App - Learning XML and how to create a UI - Android 12
+Lecture: Summary Of The Calculator Chapter
+----------------------------------------
+
+Da da dum. We're done with our calculator. So now you can build your own calculator. How awesome is that? Well, I think it's not that awesome. I think there are a bunch of cool things that we're going to build in the next few chapters, but still it was important to go through it. It was important to learn how to use linear layouts, how to use the features that we have used throughout this chapter. And you have seen how you can use linear layouts, how to build your own UI and more advanced UI, so to speak, because there was a lot going on, right? A bunch of buttons, a bunch of information that you want to display, added text and all those kind of things. And we looked into playing with strings. We also have checked out mathematical operations because, well, it's a calculator, right? So you will need those. And we built an important fundament for our next application. So we're going to use quite a lot of what you learned in this chapter through all the next chapters, and it's going to be a lot cooler than what we have built yet. So thanks a lot for being with me and see you in the next video.

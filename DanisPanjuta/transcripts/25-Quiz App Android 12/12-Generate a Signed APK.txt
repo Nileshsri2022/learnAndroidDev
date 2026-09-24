@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Quiz App Android 12
+Lecture: Generate a Signed APK
+----------------------------------------
+
+[No transcript available for this lecture]

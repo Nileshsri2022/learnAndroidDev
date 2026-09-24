@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 14 - Room Database, DAO, @Entity - Wishlist App
+Lecture: Day 14 - Dependency Injection
+----------------------------------------
+
+Welcome back. In this video I want to give you an idea about dependency injection. So let's start. So first off dependencies are like the rules in a board game. Just like you need to know the rules to play the game. Pieces of code need certain information or tools to do their job. Let's say you're playing a game and you need dice, but instead of looking for them yourself, there is a helper who always hands you the dice when it's your turn. That's what dependency injection does in apps. It gives the pieces of your app what they need, like the dice in the game, without them having to look for it. This means the app can run smoothly because all the parts know they will get what they need without worrying about how to find it. This helper makes sure that if part of your app needs to change, you don't have to go through the whole app looking for all the places that need that new part. Instead, your helper takes care of it for you, and that's pretty much the gist of dependency injection. It keeps things organized and makes it easier to manage changes in your app.

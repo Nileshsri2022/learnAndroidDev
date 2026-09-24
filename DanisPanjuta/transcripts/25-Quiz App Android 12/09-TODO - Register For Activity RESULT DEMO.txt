@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Quiz App Android 12
+Lecture: TODO - Register For Activity RESULT DEMO
+----------------------------------------
+
+[No transcript available for this lecture]

@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 14 - Room Database, DAO, @Entity - Wishlist App
+Lecture: Summary of Day 14
+----------------------------------------
+
+[No transcript available for this lecture]

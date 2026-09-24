@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 8 - MVVM - Model View ViewModel - Architecture - Counter App Part 2
+Lecture: Summary of Day 8
+----------------------------------------
+
+[No transcript available for this lecture]

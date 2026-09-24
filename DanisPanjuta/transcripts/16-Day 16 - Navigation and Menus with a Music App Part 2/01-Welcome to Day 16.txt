@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 16 - Navigation and Menus with a Music App Part 2
+Lecture: Welcome to Day 16
+----------------------------------------
+
+Welcome back to day number 16. So today our plan is to finalize the application. Let's see how far we can get. So the first part will be the bottom bar. You can see here we can move between different screens using this bottom bar here. And then we also have another option which is this little selector here with the menu where you can go to Settings Share and Help. Obviously none of them are implemented, but we are going to focus on the fact that we can implement this little button here. Now you can obviously go ahead and modify that later on, but for now that's what we're going to build. So a few screens you see here which include a little bit of content just to have something there, but then also just looking at how to create those different bottom app bars. So this will help you to understand more about user interfaces in Android app development. And it will enable you to, well, build all kinds of other requests that your customers will come to you or come to you with. So that's what we're going to build. Let's do that. See you in the next video.

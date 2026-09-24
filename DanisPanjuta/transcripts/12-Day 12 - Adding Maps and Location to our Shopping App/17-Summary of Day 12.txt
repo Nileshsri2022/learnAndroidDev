@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 12 - Adding Maps and Location to our Shopping App
+Lecture: Summary of Day 12
+----------------------------------------
+
+[No transcript available for this lecture]

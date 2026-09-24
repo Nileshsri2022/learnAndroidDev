@@ -1,0 +1,6 @@
+Course: The Complete Android 14 & Kotlin Development Masterclass
+Chapter: Day 7 - Shopping List App - Learning Loads of UI Features
+Lecture: Welcome to Day 7
+----------------------------------------
+
+Welcome to day seven, the last day of the first week. Today we're going to build a shopping list application that allows us to just know what we need to buy when we go into the grocery store, for example. And that is pretty cool because you're going to learn more about interaction with user interfaces. You are going to learn more Kotlin code. We're going to repeat a few things that we have learned yesterday and the day before yesterday. We're going to again use state but in other areas. So basically a bunch of really cool new features that you're going to learn while building a very interesting and cool application that you can use yourself and show around to your friends and family. So I would say, let's jump into the little story about our application and then get started building it. So I hope you're as excited as I am. Let's get started.
