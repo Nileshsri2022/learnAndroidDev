@@ -1,0 +1,7 @@
+https://kotlinlang.org/docs/collections-overview.html
+https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/
+https://kotlinlang.org/docs/lambdas.html
+https://kotlinlang.org/docs/visibility-modifiers.html
+https://kotlinlang.org/docs/nested-classes.html
+https://kotlinlang.org/docs/null-safety.html#safe-casts
+https://kotlinlang.org/docs/exceptions.html#exception-classes
