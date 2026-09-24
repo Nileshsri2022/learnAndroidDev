@@ -27,6 +27,15 @@ Then deploy `site/` wherever you like, e.g.:
 mkdocs gh-deploy      # pushes site/ to the gh-pages branch
 ```
 
+## Verify the site
+
+After `mkdocs build`, run the checker — it crawls every page, verifies every
+internal link resolves, and confirms every page has real content:
+
+```bash
+python3 check_links.py
+```
+
 ## Structure
 
 | Path | Purpose |

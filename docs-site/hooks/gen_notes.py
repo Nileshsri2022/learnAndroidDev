@@ -447,7 +447,7 @@ gallery = [
     "| ------- | --- | ----- |",
 ]
 for proj, href in sorted(all_projects, key=lambda x: x[0].day):
-    gallery.append(f"| **[{html.escape(proj.name)}]({href})** | {proj.day} | "
+    gallery.append(f"| **[{html.escape(proj.name)}](../{href})** | {proj.day} | "
                    f"{len(proj.files)} |")
 gallery += [
     "",
