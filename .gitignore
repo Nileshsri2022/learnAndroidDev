@@ -1,2 +1,14 @@
 # Docs site build output
 docs-site/site/
+
+# Android / Gradle build artifacts and IDE junk
+__MACOSX/
+.gradle/
+.idea/
+build/
+out/
+.kotlin/
+local.properties
+*.apk
+*.aab
+*.jks

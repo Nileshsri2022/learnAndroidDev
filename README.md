@@ -60,7 +60,8 @@ DanisPanjuta/
 ## Documentation site
 
 The notes and transcripts are also available as a **searchable website**
-(MkDocs Material, ~990 pages, full-text search, dark mode):
+(MkDocs Material, ~1,580 pages: lecture notes, transcripts and browsable
+app source code, with full-text search and dark mode):
 
 ```bash
 cd docs-site
