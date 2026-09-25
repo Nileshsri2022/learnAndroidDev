@@ -1,0 +1,161 @@
+/* ==========================================================================
+   Android Dev Masterclass — Custom Styling & UI Polish
+   ========================================================================== */
+
+/* Badge bar & switch pills (between Lecture Note and Raw Transcript) */
+.doc-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 1rem 0 1.5rem 0;
+  padding: 0.6rem 0.85rem;
+  background-color: var(--md-code-bg-color);
+  border-radius: 6px;
+  border-left: 4px solid var(--md-primary-fg-color);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.doc-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.82rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.doc-badge-lecture {
+  background-color: rgba(103, 58, 183, 0.15);
+  color: var(--md-primary-fg-color);
+  border: 1px solid rgba(103, 58, 183, 0.3);
+}
+
+.doc-badge-transcript {
+  background-color: rgba(33, 150, 243, 0.15);
+  color: #1976d2;
+  border: 1px solid rgba(33, 150, 243, 0.3);
+}
+
+[data-md-color-scheme="slate"] .doc-badge-transcript {
+  background-color: rgba(33, 150, 243, 0.25);
+  color: #64b5f6;
+  border: 1px solid rgba(33, 150, 243, 0.4);
+}
+
+.doc-switch-link {
+  background-color: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-typeset-color);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.doc-switch-link:hover {
+  border-color: var(--md-primary-fg-color);
+  background-color: var(--md-primary-fg-color);
+  color: #ffffff !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.doc-code-link {
+  background-color: rgba(46, 125, 50, 0.12);
+  color: #2e7d32;
+  border: 1px solid rgba(46, 125, 50, 0.3);
+}
+
+[data-md-color-scheme="slate"] .doc-code-link {
+  background-color: rgba(76, 175, 80, 0.2);
+  color: #81c784;
+  border: 1px solid rgba(76, 175, 80, 0.4);
+}
+
+.doc-code-link:hover {
+  background-color: #2e7d32;
+  border-color: #2e7d32;
+  color: #ffffff !important;
+}
+
+/* In-page bottom lecture navigation (Prev / Overview / Next) */
+.doc-nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.doc-nav-prev, .doc-nav-next, .doc-nav-up {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.85rem;
+  border-radius: 6px;
+  background-color: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-typeset-color);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.doc-nav-prev:hover, .doc-nav-next:hover, .doc-nav-up:hover {
+  border-color: var(--md-primary-fg-color);
+  background-color: var(--md-primary-fg-color);
+  color: #ffffff !important;
+}
+
+/* Cheatsheet and Reference cards */
+.ref-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.ref-card {
+  padding: 1.2rem;
+  background-color: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.ref-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.ref-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--md-primary-fg-color);
+}
+
+/* Table styling polish */
+.md-typeset table:not([class]) {
+  font-size: 0.85rem;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color--dark);
+  color: #ffffff;
+}
+
+/* Keyboard keys */
+kbd {
+  background-color: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--light);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  font-size: 0.8em;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+}

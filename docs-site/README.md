@@ -55,10 +55,14 @@ python3 check_links.py
 
 What you get:
 
-- **Top tab bar** — Home · App projects · Days 1–18 · Days 19–32 — with collapsed day sections and short sidebar labels
-- One page per **lecture note** (499 pages), grouped into 32 days
-- One page per **raw transcript** (519 pages), marked with 🗣 in the sidebar
+- **Top tab bar** — Home · App projects · ⚡ Cheat Sheets · 📚 Concept Index · Days 1–18 · Days 19–32 — with collapsed day sections and clean navigation
+- **Bidirectional Switcher** — Every lecture note has a one-click badge linking to its verbatim transcript; transcripts link directly back to structured notes & code
+- **In-page navigation** — Next and Previous lecture buttons at the bottom of every lecture note
+- **Dedicated Cheat Sheets Hub** — Ready-to-copy code snippets covering Kotlin, Jetpack Compose, MVVM, Room, Retrofit, Permissions, and Compose vs XML
+- **Concept Index & Glossary** — Alphabetical A–Z index mapping 50+ core Android concepts directly to lessons
+- One page per **lecture note** (501 pages), grouped into 32 days
+- One page per **raw transcript** (519 pages)
 - A **source code browser** — 17 app projects (Unit Converter, Shopping List, Recipe,
   Wishlist, Music App, Chat Room, Age in Minutes, Calculator, Happy Places, Weather,
   Trello clone…) with every Kotlin/XML/Gradle file rendered syntax-highlighted
-- Full-text **search across everything**, dark mode, copy-buttons on code blocks
+- Full-text **search across everything**, dark mode, copy-buttons on code blocks, select-all code, and tooltips
