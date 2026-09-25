@@ -3,6 +3,8 @@ docs-site/site/
 
 # Android / Gradle build artifacts and IDE junk
 __MACOSX/
+._*
+.DS_Store
 .gradle/
 .idea/
 build/
